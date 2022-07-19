@@ -1,7 +1,7 @@
 package com.company;
 
 
-    public class CarBuilder
+    public class VehicleBuilder
     {
         private int tyre;
         private int engine;
@@ -9,33 +9,33 @@ package com.company;
         private int seat;
         private int steeringWheel;
 
-        public CarBuilder setTyre(int tyre) {
+        public VehicleBuilder setTyre(int tyre) {
             this.tyre = tyre;
             return this;
         }
 
-        public CarBuilder setEngine(int engine) {
+        public VehicleBuilder setEngine(int engine) {
             this.engine = engine;
             return this;
         }
 
-        public CarBuilder setDoor(int door) {
+        public VehicleBuilder setDoor(int door) {
             this.door = door;
             return this;
         }
 
-        public CarBuilder setSeat(int seat) {
+        public VehicleBuilder setSeat(int seat) {
             this.seat = seat;
             return this;
         }
 
-        public CarBuilder setSteeringWheel(int steeringWheel) {
+        public VehicleBuilder setSteeringWheel(int steeringWheel) {
             this.steeringWheel = steeringWheel;
             return this;
         }
-        public Car getCar()
+        public Vehicle getVehicle()
         {
-            return new Car(tyre, engine, door, seat, steeringWheel);
+            return new Vehicle(tyre, engine, door, seat, steeringWheel);
         }
     }
 

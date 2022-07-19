@@ -1,6 +1,6 @@
 package com.company;
 
-public class Car {
+public class Vehicle {
 
     private int tyre;
     private int engine;
@@ -8,7 +8,7 @@ public class Car {
     private int seat;
     private int steeringWheel;
 
-    public Car(int tyre, int engine, int door, int seat,int steeringWheel )
+    public Vehicle(int tyre, int engine, int door, int seat,int steeringWheel )
     {
         super();
         this.tyre = tyre;
@@ -20,7 +20,7 @@ public class Car {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "Car{" +
+        return "Vehicle{" +
                 "tyre=" + tyre +
                 ", engine=" + engine +
                 ", door=" + door +
